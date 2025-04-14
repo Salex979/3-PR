@@ -6,7 +6,15 @@
    ```
 3. **Установите зависимости**
    ```sh
-   npm install
+   npm install express cors graphql express-graphql ws
+   ```
+4. **Запустите API сервер**
+   ```sh
+   node api.js
+   ```
+4. **Запустите WebSocket сервер**
+   ```sh
+   node websocket-server.js
    ```
 4. **Запустите сервер**
    ```sh
